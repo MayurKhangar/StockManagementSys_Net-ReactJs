@@ -1,0 +1,11 @@
+import axiosClient from './axiosClient';
+
+const supplierApi = {
+  getAll: () => axiosClient.get('/suppliers'),
+  getById: (id) => axiosClient.get(`/suppliers/${id}`),
+  create: (payload) => axiosClient.post('/suppliers', payload),
+  update: (id, payload) => axiosClient.put(`/suppliers/${id}`, payload),
+  remove: (id) => axiosClient.delete(`/suppliers/${id}`),
+};
+
+export default supplierApi;
