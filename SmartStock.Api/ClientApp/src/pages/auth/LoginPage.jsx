@@ -74,7 +74,8 @@ export default function LoginPage() {
 
         <div className="mt-6 pt-4 border-t border-slate-100 text-xs text-slate-400 text-center leading-relaxed">
           Demo admin: admin@smartstock.com / Admin@123
-          <br />
+                  <br />
+
           Demo customer: customer@smartstock.com / Customer@123
         </div>
       </div>
